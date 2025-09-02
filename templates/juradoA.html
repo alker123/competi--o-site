@@ -17,17 +17,17 @@
         </div>
         <div class="lang-buttons">
           <button id="pt" class="lang-btn active" data-lang="pt">
-            <img src="br.png" alt="Português">
+            <img src="{{ url_for('static', filename='imagens/br.png') }}" alt="Português">
             <span class="lang-text">PT</span>
           </button>
 
           <button id="en" class="lang-btn" data-lang="en">
-            <img src="us.png" alt="English">
+            <img src="{{ url_for('static', filename='imagens/us.png') }}" alt="English">
             <span class="lang-text">EN</span>
           </button>
 
           <button id="es" class="lang-btn" data-lang="es">
-            <img src="es.png" alt="Español">
+            <img src="{{ url_for('static', filename='imagens/es.png') }}" alt="Español">
             <span class="lang-text">ES</span>
           </button>
         </div>
